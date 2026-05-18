@@ -22,3 +22,6 @@ interface SharedExpenseDao {
     @Delete
     suspend fun delete(sharedExpense: SharedExpense)
 }
+
+annotation class SharedExpenseDao
+annotation class SharedExpenseDao

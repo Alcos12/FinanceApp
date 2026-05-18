@@ -73,6 +73,4 @@ class ExpenseViewModel(application: Application) : AndroidViewModel(application)
         }
         return categoryTotals
     }
-
-
 }
